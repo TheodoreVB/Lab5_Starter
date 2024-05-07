@@ -10,7 +10,7 @@ import {
 
 // isPhoneNumber tests
 test('Tests a valid phone number using -', () => {
-  expect(isPhoneNumber('123-456-7890')).toBe(4);
+  expect(isPhoneNumber('123-456-7890')).toBe(true);
 });
 test('Tests a valid phone number using ()', () => {
   expect(isPhoneNumber('(123) 456-7890')).toBe(true);
